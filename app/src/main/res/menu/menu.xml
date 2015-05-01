@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="Filter P"
+        android:icon="@drawable/ic_person_black_36dp"
+        android:showAsAction="ifRoom"
+        android:id="@+id/filter_Personal">
+    </item>
+
+    <item
+        android:title="Filter B"
+        android:icon="@drawable/ic_domain_black_36dp"
+        android:showAsAction="ifRoom"
+        android:id="@+id/filter_Business">
+    </item>
+
+
+    <item android:id="@+id/action_add_task"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task" />
+
+</menu>
